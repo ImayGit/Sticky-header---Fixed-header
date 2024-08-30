@@ -1,0 +1,49 @@
+body {
+   height: 100vh; 
+}
+header {
+    border: 1px solid #000;
+    /* height: 15vh; */
+    padding: 1rem 1rem 1rem 5rem;
+    /* padding-top: 4rem; */
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #000;
+}
+.position-sticky {
+    position: sticky;
+    top: 0px;
+}
+.position-fixed {
+ position: fixed; 
+ top: 0px;  
+ width: 100%;
+}
+.float-right {
+    text-align: right;
+}
+.float-right a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+main {
+    padding: 1rem 1rem 1rem 5rem;
+}
+.profile-details {
+    margin-top: 10;
+}
+hr{
+    margin: 10px 0px;
+    border: 1px solid #cacaca;
+}
+footer {
+    text-align: center;
+    border: 1px solid #000;
+    color: #fff;;
+    /* height: 15vh; */
+    padding: 1rem 1rem 1rem 5rem;
+    background-color: #000;
+
+}
