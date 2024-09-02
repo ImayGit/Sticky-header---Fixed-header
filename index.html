@@ -8,13 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav id="side-menu">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <button onclick="closeNav()">Close</button>
+    </nav>
     <header class="position-sticky">
         <div>
             <h1>My Profile</h1>
             <h2>Name : IMAYAVARAMBAN G</h2>
             <p>Web Developer</p>
             <address>123, Bangalore, India</address>
-            <h2 class="float-right"><a href="position-fixed-page.html" target="_blank">Check Position Fixed Type</a></h2>
+            <div class="float-right">
+                <button class="" onclick="openNav()">Menu</button>
+                <h2><a href="position-fixed-page.html" target="_blank">Check Position Fixed Type</a></h2>
+            </div>
         </div>
 
     </header>
@@ -76,6 +88,13 @@
     <footer>
         <p>Created by - Imayavaramban G</p>
     </footer>
-    
+    <script>
+        function openNav() {
+            document.getElementById("side-menu").style.display = "block";
+        }
+        function closeNav() {
+            document.getElementById("side-menu").style.display = "none";
+        }
+    </script>
 </body>
 </html>
